@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop - Down</title>
+    <style>
+        #drop-context{
+            display: none;
+        }
+        #drop-down:hover #drop-context{
+            display: block;
+        }
+        button{
+            background-color: aqua;
+            height: 40px;
+            width: 300px;
+        }
+        a{
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+            border: 2px solid black;
+            background-color: aquamarine;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="drop-down">
+        <button id="drop button">Food Dishes</button>
+        <div id="drop-content">
+            <a href="#" style="font-family:serif;color: chocolate;font-size: large;">Paneer Butter Masala</a>
+            <a href="#" style="font-family:Segoe UI;color: rgb(22, 121, 183);font-size: larger;">Tandoor Roti</a>
+            <a href="#" style="font-family:Trebuchet MS;color: blueviolet;font-size: xx-large;">Mushroom Masala</a>
+        </div>
+    </div>
+    
+</body>
+</html>

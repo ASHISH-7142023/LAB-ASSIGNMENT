@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOA STUDENT LOGIN DETAILS</title>
+    <style>
+        #logo{
+            display: flex;
+            justify-content: center;
+            padding: 25px;
+        }
+        #forms{
+            border: 2px solid black;
+            padding: 40px;
+        }
+        img{
+            height:200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="logo">
+        <img src="https://images.squarespace-cdn.com/content/v1/57713a8e2994cae381dd86fe/1510405002757-FP2W9HV8ZA0HP2IF3O6A/SOA-PNG.png" alt="SOA LOGO">
+    </div>
+    <div id="forms">
+        <form action="#">
+            <label for="fullname">Name : </label>
+            <input type="text" name="fullname" id="fullname" placeholder="Enter Ur Name Required">
+            <br><br>
+            <label for="email">Email : </label>
+            <input type="email" name="email" id="email" placeholder="Enter Ur Email Required">
+            <br><br>
+            <label for="password">Password : </label>
+            <input type="password" name="password" id="password" placeholder="Enter Ur Password Required">
+            <br><br>
+            <label>Gender : </label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <br><br>
+            <select name="country" id="country">
+                <!-- <option value="">Select Country</option> -->
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="India">India</option>
+                <option value="China">China</option>
+            </select>
+            <br><br>
+            <button type="submit">Submit</button>
+            <button type="reset">reset</button>
+        </form>
+    </div>
+</body>
+</html>
